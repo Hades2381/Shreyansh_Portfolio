@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Shreyansh Sharma",
+  title: "Hey everyone, welcome to my Portfolio!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Robotics and Perception Engineer 🚀 specializing in developing cutting-edge sensor fusion techniques, computer vision algorithms, and motion planning strategies."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Hades2381",
+  linkedin: "https://www.linkedin.com/in/shreyansh-sharma-718496210/",
+  gmail: "shreyansh238hwr@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +45,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "INNOVATIVE ROBOTICS AND PERCEPTION ENGINEER EXPLORING THE FRONTIERS OF AUTONOMOUS SYSTEMS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop advanced perception systems using camera-LiDAR fusion and computer vision techniques"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Design and implement motion planning algorithms for autonomous robots"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate and optimize sensor fusion systems for seamless navigation in dynamic environments"
     )
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -117,7 +114,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -126,23 +123,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Carnegie Mellon University",
+      subHeader: "Master of Science in Mechanical Engineering with Concentration in Robotics",
+      duration: "August 2022 - May 2025",
+      desc: "Focused on robotic systems, control algorithms, and perception techniques.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Selected courses: Computer Vision, SLAM, Introduction to Machine Learning, Visual Learning and Recognition, Modern Control",
+        "Conducted advanced research in camera-LiDAR fusion, achieving accurate environmental perception for drones"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Veermata Jijabai Technological Institute (V.J.T.I.)",
+      subHeader: "Bachelor of Technology in Mechanical Engineering",
+      duration: "June 2019 - June 2023",
+      desc: "Acquired a strong foundation in engineering principles with a focus on robotics and manufacturing.",
+      descBullets: [
+        "Research on depth estimation using 360° cameras for dynamic object tracking",
+        "Ranked among the top performers in the program"
+      ]
     }
   ]
 };
@@ -150,10 +148,10 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    { 
+      Stack: "Cuda", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -171,35 +169,42 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Perception Intern",
+      company: "CERLAB, Carnegie Mellon University",
+      date: "May 2024 – September 2024",
+      desc: "Developed and integrated advanced camera-LiDAR fusion systems for drone applications, enabling complete 360-degree environmental coverage.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Revamped drone chassis to integrate sensors, enhancing protection against dynamic obstacles",
+        "Achieved ±2 cm distance precision and 87% accuracy in object detection using custom YOLO algorithms",
+        "Enabled accurate distance estimation up to 100 meters"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Intern",
+      company: "Indian Institute of Technology, Mumbai",
+      date: "July 2022 – February 2023",
+      desc: "Led the development of cost-efficient additive manufacturing projects and innovative medical solutions.",
+      descBullets: [
+        "Designed and implemented a cost-efficient lymphoedema massage mechanism using additive manufacturing",
+        "Reduced operational costs by 75% and training time for new operators by 25% with improved protocols"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Perception and Design Intern",
+      company: "Siemens",
+      date: "May 2022 – July 2022",
+      desc: "Engineered robust drones and perception systems for factory and disaster area applications.",
+      descBullets: [
+        "Designed a shock-resistant drone chassis, sustaining stresses up to 1075 MPa",
+        "Interfaced infrared cameras with base stations to track worker movements with 90% accuracy"
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -213,34 +218,56 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SIGNIFICANT PROJECTS DEMONSTRATING MY EXPERTISE IN ROBOTICS AND PERCEPTION",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Camera-LiDAR Fusion for Drones",
+      projectDesc:
+        "Developed a fusion system combining fisheye cameras and Livox LiDAR to enable accurate object detection and navigation for drones, achieving a distance precision of ±2 cm and 87% detection accuracy.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Learn More",
+          url: "https://github.com/your-repository-link"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Depth Estimation Using 360° Cameras",
+      projectDesc:
+        "Designed and implemented a system for depth estimation of dynamic objects using a single 360° camera, optimizing navigation in complex, dynamic environments.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Learn More",
+          url: "https://github.com/your-repository-link"
+        }
+      ]
+    },
+    {
+      projectName: "Gain-Scheduled LQR for Crazyflie Drone",
+      projectDesc:
+        "Implemented and tested a Gain-Scheduled LQR controller for a Crazyflie 2.1 drone, enabling stabilization and control during aggressive maneuvers, including mid-air throws.",
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "https://github.com/your-repository-link"
+        }
+      ]
+    },
+    {
+      projectName: "Modular Controller for Wheeled Robots",
+      projectDesc:
+        "Developed a modular control strategy to optimize step-climbing in wheeled robots by dynamically adjusting the approach angle based on terrain and robot parameters.",
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "https://github.com/your-repository-link"
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
@@ -300,7 +327,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +351,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +370,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // false Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +383,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,22 +392,22 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "412-330-8633",
+  email_address: "shreyansh238hwr@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
